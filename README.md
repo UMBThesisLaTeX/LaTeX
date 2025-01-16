@@ -1,12 +1,14 @@
-Repository contents 
---------
-
-LaTeX files: class (.cls) and template (.tex) 
 
 Purpose
 -------
 
 Producing a master's thesis or a doctoral dissertation
+
+Repository contents 
+--------
+
+LaTeX files: class (.cls) and template (.tex) 
+
 
 Target  institution
 ----------
