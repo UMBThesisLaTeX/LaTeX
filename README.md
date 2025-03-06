@@ -2,6 +2,11 @@ Download directions
 --------
 Click the green button labeled '<> Code'. and then click on 'Download ZIP'. 
 
+Report problems
+---------
+
+Send an email to umbthesislatex@gmail.com .
+
 Purpose
 -------
 
@@ -28,4 +33,9 @@ Repository contents
 Main LaTeX files: class (.cls) and template (.tex) 
 
 Other files needed to compile the template: a .bib file, and a .pdf figure.
+
+Maintainer
+-------
+
+Vanja Dunjko
 
