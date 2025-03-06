@@ -2,7 +2,7 @@
 Purpose
 -------
 
-Producing a master's thesis or a doctoral dissertation
+Producing a master's thesis or a doctoral dissertation in LateX
 
 Target  institution
 ----------
