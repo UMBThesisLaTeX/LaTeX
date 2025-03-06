@@ -23,5 +23,6 @@ Repository contents
 --------
 
 Main LaTeX files: class (.cls) and template (.tex) 
+
 Other files needed to compile the template: a .bib file, and a .pdf figure.
 
