@@ -1,3 +1,6 @@
+Download directions
+--------
+Click the green button labeled '<> Code'. and then click on 'Download ZIP'. 
 
 Purpose
 -------
