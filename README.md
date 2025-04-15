@@ -5,7 +5,8 @@ Click the green button labeled '<> Code'. and then click on 'Download ZIP'.
 Requirements
 ---------
 
-TexLive 2023 or newer
+TexLive 2023 or newer.
+
 TeXLive is the LaTeX distribution that underlies both MikTeX (on Windows) and TeXShop (on macOS).
 
 To check your TeXLive version, open a terminal and type
