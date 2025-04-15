@@ -3,10 +3,10 @@
 %%%%%%%%%% special notes on packages amsthm, amsmath, and amssymb %%%%%%%%%%%
 %%%%%%%%%%
 % 1. If you want to use the package amsthm, then, for reasons explained in the class file, don't load it explicitly yourself; instead add the option 'amsthm' to the class file, like this:
-% \documentclass[amsthm]{UMassThesis12}
+% \documentclass[amsthm]{UMassThesis14}
 %
 % 2. The package 'amsmath' is automatically loaded by the class. If you want  amsmath to be loaded with some options, just supply them to the class, which will pass it on to amsmath. For example, if you want amsmath to be loaded with the options 'centertags' and 'nosumlimits', load the class file like this:
-% \documentclass[centertags,nosumlimits]{UMassThesis12}
+% \documentclass[centertags,nosumlimits]{UMassThesis14}
 % 
 % 3. The package amssymb should not be loaded because it conflicts with newtxmath. This is usually not a problem because newtxmath provides all the functionality and commands of amssymb. However, since there are packages that have \RequirePackage{amssymb} command in their code, the class file makes LaTeX 'think' that amssymb has been loaded, so that \RequirePackage{amssymb} does nothing.
 
