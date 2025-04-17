@@ -918,7 +918,7 @@ PART~\thecontentslabel.%
 \newcommand{\MeasureBox}[1]{%
 \savebox{\boxToBeMeasured}{\noindent%
 \begin{minipage}[b]{\textwidth}
-\color{red}
+% \color{red}
 #1
 \end{minipage}
 }
