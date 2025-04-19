@@ -639,11 +639,9 @@ PART~\thecontentslabel.%
 
 
 
+\setlength{\LoFPageNumToRightMargin}{\LoFExtraPageNumToRightMargin+\ToCPageNumToRightMargin*\real{0.75}}
+\setlength{\LoTPageNumToRightMargin}{\LoTExtraPageNumToRightMargin+\ToCPageNumToRightMargin*\real{0.75}}
 
-
-
-% \titlecontents{figure}[\FigMainIndent]{\contentsmargin[\ToCTextRightMarginRelativeToRightEndOfDots]{\LoFDottedLineRightMargin}
-% \titlecontents{figure}[\FigMainIndent]{\contentsmargin[1.5in]{\dimexpr 0.75in-3.3pt}%
 \titlecontents{figure}[\FigMainIndent]{\contentsmargin[\ToCTextRightMarginRelativeToRightEndOfDots]{\dimexpr \ToCDottedLineRightMargin+\LoFExtraPageNumToRightMargin}%
 \hangindent\FigPullIndent\noindent\normalfont}%
     {\contentslabel[%
@@ -651,9 +649,7 @@ PART~\thecontentslabel.%
     \mbox{}\hspace{-\WidthA}%
     \thecontentslabel]{\FigLabelShift}}%
     {\hspace*{-\FigLabelShift}}%
-%     {\titlerule*[3.3pt]{.}\contentspage[\thecontentspage\hbox{\hspace{\LoFPageNumToRightMargin}}]}
-%     {\titlerule*[3.3pt]{.}\contentspage[\thecontentspage]}
-    {\titlerule*[3.3pt]{.}\contentspage[\thecontentspage\hspace{\LoFExtraPageNumToRightMargin+\ToCPageNumToRightMargin*\real{0.75}}]}
+    {\titlerule*[3.3pt]{.}\contentspage[\thecontentspage\hspace{\LoFPageNumToRightMargin}]}
 
 \titlecontents{table}[\TablMainIndent]{\contentsmargin[\ToCTextRightMarginRelativeToRightEndOfDots]{\dimexpr \ToCDottedLineRightMargin+\LoTExtraPageNumToRightMargin}%
 \hangindent\TablPullIndent\noindent\normalfont}%
@@ -662,8 +658,7 @@ PART~\thecontentslabel.%
     \mbox{}\hspace{-\WidthA}%
     \thecontentslabel]{\TablLabelShift}}%
     {\hspace*{-\TablLabelShift}}%
-%     {\titlerule*[3.3pt]{.}\contentspage[\thecontentspage\hbox{\hspace{\LoFPageNumToRightMargin}}]}
-    {\titlerule*[3.3pt]{.}\contentspage[\thecontentspage\hspace{\LoTExtraPageNumToRightMargin+\ToCPageNumToRightMargin*\real{0.75}}]}
+    {\titlerule*[3.3pt]{.}\contentspage[\thecontentspage\hspace{\LoTPageNumToRightMargin}]}
 
 
 % this is, in effect, a change in the command \chapter, made to prevent extra vertical
