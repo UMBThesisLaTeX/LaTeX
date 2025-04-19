@@ -26,21 +26,31 @@ A reasonably recent verson of a LaTeX distribution, namley, MikTeX, MacTeX, or T
 
 For TeXLive and MacTeX, this means 2019 or newer. (MacTeX is just a macOS-specific redistribution of TeXLive.)
 
-For MikTeX, this probably means 20.6 or newer (see [here](https://github.com/MiKTeX/miktex/issues/554) and [here](https://github.com/MiKTeX/miktex/tags?after=21.2)), though what really matters for MiKTeX is that the [packages have been updated](https://miktex.org/howto/update-miktex) at least once since 2019. 
+For MikTeX, this probably means 20.6 or newer (see [here](https://github.com/MiKTeX/miktex/issues/554) and [here](https://github.com/MiKTeX/miktex/tags?after=21.2)). This is a guess based on test results for TeXLive.<sup>1</sup> 
+
+<sub><sup>1</sup>It is only for TeXLive that I can easily test if the template works on older versions, thanks to OverLeaf (see below).</sub>
 
 If you are using a CGI editor such as LyX or even Scientific Word, note that they all use an underlying TeXLive or MikTeX distribution, and it is this underlying distribution that needs to be recent enough.
 
-As far as I know, [all the other distributions](https://tex.stackexchange.com/questions/239199/latex-distributions-what-are-their-main-differences) have been retired/discontinued and are no longer updated. Of these, proTeXt was retired in 2022, so the template might work with the more recent versions of it. As for the other ones (teTeX, fpTeX, emTeX, gwTeX, oztex, AmigaTeX, PasTeX, TrueTeX, pcTeX), they were all discontinued so long ago that even their most recent versions will probably not be recent enough for this template.
+As far as I know, [all the other distributions](https://tex.stackexchange.com/questions/239199/latex-distributions-what-are-their-main-differences) have been retired/discontinued and are no longer updated. Of these, proTeXt (itself based on MikTeX) was retired in 2022, so the template might work with the more recent versions of it. As for the other ones (teTeX, fpTeX, emTeX, gwTeX, oztex, AmigaTeX, PasTeX, TrueTeX, pcTeX), they were all discontinued so long ago that even their most recent versions will probably not be recent enough for this template.
 
 ## Check your distribution version
 
-If using TeXLive (or MacTeX), you can check your distribution version using the following steps. First, open a terminal window (directions: [Windows](https://www.wikihow.com/Open-Terminal-in-Windows), [macOS](https://support.apple.com/en-az/guide/terminal/apd5265185d-f365-44cb-8b09-71a064a42125/mac)). Then, on the command line in the terminal, type
+First, open a terminal window (directions: [Windows](https://www.wikihow.com/Open-Terminal-in-Windows), [macOS](https://support.apple.com/en-az/guide/terminal/apd5265185d-f365-44cb-8b09-71a064a42125/mac)). Then, on the command line in the terminal, type
 
 `pdflatex --version`
 
 and press enter.
 
-There will be several lines of output, but we are only interested in the first one. It should be something like
+There will be several lines of output, but we are only interested in the first one. It should be something like:
+
+### For MikTeX,
+
+`MiKTeX-pdfTeX 4.21 (MiKTeX 25.3)`
+
+In this case, the MiKTeX version would be 25.3.
+
+### For TeXLive or MacTeX,
 
 `pdfTeX 3.141592653-2.6-1.40.26 (TeX Live 2024)`
 
