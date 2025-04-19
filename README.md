@@ -15,7 +15,7 @@ UMass Boston
 Requirements
 ---------
 
-TexLive 2021 or newer (or, on macOS, MacTex 2021 or newer); or, a comparably recent version of MikTeX or of some other LaTeX distribution (such as proTeXt).
+TexLive 2019 or newer (or, on macOS, MacTex 2019 or newer); or, a comparably recent version of MikTeX or of some other LaTeX distribution (such as proTeXt).
 
 If using TeXLive or MacTeX, you can check your distribution version using the following steps. First, open a terminal window (directions: [Windows](https://www.wikihow.com/Open-Terminal-in-Windows), [macOS](https://support.apple.com/en-az/guide/terminal/apd5265185d-f365-44cb-8b09-71a064a42125/mac)). Then, on the command line in the terminal, type
 
