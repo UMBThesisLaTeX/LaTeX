@@ -8,17 +8,21 @@ A LaTeX class and template for producing a master's thesis or a doctoral dissert
 
 ## Limitations
 
-### Format
+### Only the _traditional format_
 
 Only the _traditional format,_ with a single bibliography at the end, is supported out of the box. 
 
 <sub>The other officially sanctioned format, the _multi-monograph (alternative) format,_ actually wouldn't be very difficult to produce; the key would be to use the ```chapterbib``` package. Indeed, some people have already done that on their own with older versions of this class and template. I just haven't gotten around to implementing that.</sub>
 
-### Support for "parts"
+### Limited support for "parts"
 
 If your thesis or dissertation includes multiple "parts" (a grouping above chapters), please note that the formatting of the Table of Contents (ToC) may end up requiring nontrivial manual LaTeX hacks. 
 
 <sub>I am trying to get it automated, but it is _very_ challenging. The problem is the 'CHAPTER/Page' heading (see pdf page 21 of the UMass Boston style manual, which is labeled as p. 20). In general, this 'CHAPTER/Page' heading should be the top line on every non-first ToC page. However, if there are Parts, there is an exception: on those non-first ToC pages on which a Part appears as the first entry, it's the Part that should be the top entry, _followed_ by the 'CHAPTER/Page' heading (see pdf page 29 of the UMass Boston style manual). LaTeX doesn't have ready-made tools to handle this exceptional case.</sub>
+
+### Untested support for BibLaTeX
+
+The class and template have only been tested with BibTeX. _In principle,_ switching to [BibLaTeX](https://www.overleaf.com/learn/latex/Bibliography_management_with_biblatex) shouldn't be a problem. I just haven't tried it yet!
 
 # Target  institution
 
@@ -101,6 +105,6 @@ Vanja Dunjko
 
 Send an email to umbthesislatex@gmail.com .
 
-Please note that there are two periods when I am unlikely to be available to help with this class and template: roughly Dec 15-Jan 15, and the month of August. 
+Please note that there are two periods when I am unlikely to be available to help: roughly, Dec 15-Jan 15 and the month of August. 
 
 
