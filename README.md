@@ -6,7 +6,7 @@ Click the green button labeled `<> Code`. and then click on `Download ZIP`.
 
 A LaTeX class and template for producing a master's thesis or a doctoral dissertation.
 
-For now, only the _traditional format,_ with a single bibliography at the end, is supported out-of-the-box. 
+For now, only the _traditional format,_ with a single bibliography at the end, is supported out of the box. 
 
 It wouldn't be very difficult to use the ```chapterbib``` package to produce a document in the _multi-monograph (alternative) format._ Indeed, some people have already done that on their own with older versions of this class/template. I just haven't gotten around to implementing that.
 
