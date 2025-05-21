@@ -12,13 +12,13 @@ A LaTeX class and template for producing a master's thesis or a doctoral dissert
 
 Only the _traditional format,_ with a single bibliography at the end, is supported out of the box. 
 
-The other officially sanctioned format, the _multi-monograph (alternative) format,_ actually wouldn't be very difficult to produce; the key would be to use the ```chapterbib``` package. Indeed, some people have already done that on their own with older versions of this class and template. I just haven't gotten around to implementing that.
+<sub>The other officially sanctioned format, the _multi-monograph (alternative) format,_ actually wouldn't be very difficult to produce; the key would be to use the ```chapterbib``` package. Indeed, some people have already done that on their own with older versions of this class and template. I just haven't gotten around to implementing that.</sub>
 
 ### Support for "parts"
 
 If your thesis or dissertation includes multiple "parts" (a grouping above chapters), please note that the formatting of the Table of Contents (ToC) may end up requiring nontrivial manual LaTeX hacks. 
 
-I am trying to get it automated, but it is _very_ challenging. The problem is the 'CHAPTER/Page' heading (see pdf page 21 of the UMass Boston style manual, which is labeled as p. 20). This 'CHAPTER/Page' heading should be the top line on every non-first ToC page _except_ those on which a Part appears as the first entry (see pdf page 29 of the UMass Boston style manual), in which case it's the part that should be the top entry, _followed_ by the 'CHAPTER/Page' heading. LaTeX doesn't have ready-made tools to handle this kind of situation.
+<sub>I am trying to get it automated, but it is _very_ challenging. The problem is the 'CHAPTER/Page' heading (see pdf page 21 of the UMass Boston style manual, which is labeled as p. 20). In general, this 'CHAPTER/Page' heading should be the top line on every non-first ToC page. However, if there are Parts, there is an exception: on those non-first ToC pages on which a Part appears as the first entry, it's the Part that should be the top entry, _followed_ by the 'CHAPTER/Page' heading (see pdf page 29 of the UMass Boston style manual). LaTeX doesn't have ready-made tools to handle this exceptional case.</sub>
 
 # Target  institution
 
@@ -28,7 +28,7 @@ UMass Boston
 
 _Standards for the Preparation of Theses and Dissertations at the University of Massachusetts Boston_ 
 
-(Link: likely the first hit [here](https://www.google.com/search?q=Standards%20for%20the%20Preparation%20of%20Theses%20and%20Dissertations%20at%20the%20University%20of%20Massachusetts%20Boston&client=ubuntu-sn&channel=fs&sclient=gws-wiz-serp). I don't provide a direct link because it changes too frequently; Google is our best bet to find it reliably.)
+Link: likely the first hit [here](https://www.google.com/search?q=Standards%20for%20the%20Preparation%20of%20Theses%20and%20Dissertations%20at%20the%20University%20of%20Massachusetts%20Boston&client=ubuntu-sn&channel=fs&sclient=gws-wiz-serp). I don't provide a direct link because it changes too frequently; Google is our best bet to find it reliably.
 
 ### Version of style manual
 
