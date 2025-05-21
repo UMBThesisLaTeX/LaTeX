@@ -4,7 +4,11 @@ Click the green button labeled `<> Code`. and then click on `Download ZIP`.
 
 # Purpose
 
-Producing a master's thesis or a doctoral dissertation in LaTeX.
+A LaTeX class and template for producing a master's thesis or a doctoral dissertation.
+
+For now, only the _traditional format,_ with a single bibliography at the end, is supported out-of-the-box. 
+
+It wouldn't be very difficult to use the ```chapterbib``` package to produce a document in the _multi-monograph (alternative) format._ Indeed, some people have already done that on their own with older versions of this class/template. I just haven't gotten around to implementing that.
 
 # Target  institution
 
@@ -22,17 +26,17 @@ May 2023
 
 # Requirements
 
-A reasonably recent verson of a LaTeX distribution, namley, MikTeX, MacTeX, or TeXLive. 
+A reasonably recent version of a LaTeX distribution, namely, MikTeX, MacTeX, or TeXLive. 
 
 For TeXLive and MacTeX, this means 2019 or newer. (MacTeX is just a macOS-specific redistribution of TeXLive.)
 
 For MikTeX, this probably means 20.6 or newer (see [here](https://github.com/MiKTeX/miktex/issues/554) and [here](https://github.com/MiKTeX/miktex/tags?after=21.2)). This is a guess based on test results for TeXLive.<sup>1</sup> 
 
-<sub><sup>1</sup>It is only for TeXLive that I can easily test if the template works on older versions, thanks to OverLeaf (see below).</sub>
+<sub><sup>1</sup>It is only for TeXLive that I can easily test if the class and template work on older versions, thanks to _Overleaf_ (see below).</sub>
 
 If you are using a CGI editor such as LyX or even Scientific Word, note that they all use an underlying TeXLive or MikTeX distribution, and it is this underlying distribution that needs to be recent enough.
 
-As far as I know, [all the other distributions](https://tex.stackexchange.com/questions/239199/latex-distributions-what-are-their-main-differences) have been retired/discontinued and are no longer updated. Of these, proTeXt (itself based on MikTeX) was retired in 2022, so the template might work with the more recent versions of it. As for the other ones (teTeX, fpTeX, emTeX, gwTeX, oztex, AmigaTeX, PasTeX, TrueTeX, pcTeX), they were all discontinued so long ago that even their most recent versions will probably not be recent enough for this template.
+As far as I know, [all the other distributions](https://tex.stackexchange.com/questions/239199/latex-distributions-what-are-their-main-differences) have been retired/discontinued and are no longer updated. Of these, proTeXt (itself based on MikTeX) was retired in 2022, so the class and template might work with the more recent versions of it. As for the other ones (teTeX, fpTeX, emTeX, gwTeX, oztex, AmigaTeX, PasTeX, TrueTeX, pcTeX), they were all discontinued so long ago that even their most recent versions will probably not be recent enough for this class and template.
 
 ## Check your distribution version
 
@@ -40,7 +44,7 @@ First, open a terminal window (directions: [Windows](https://www.wikihow.com/Ope
 
 `pdflatex --version`
 
-and press enter.
+and press Enter.
 
 There will be several lines of output, but we are only interested in the first one. It should be something like:
 
@@ -60,11 +64,11 @@ In this case, the TeXLive version would be 2024.
 
 If your LaTeX distribution is too old, please update it. Directions: [MikTeX](https://miktex.org/howto/miktex-console); [MacTex](https://tex.stackexchange.com/questions/688954/mactex-upgrade-from-2022-to-2023) (macOS); [TeXLive](https://tex.stackexchange.com/questions/543284/kile-or-any-tex-software-cannot-find-tex-live-binaries-manually-installed-wh/736182#736182).
 
-## Alternatively, try OverLeaf
+## Alternatively, try _Overleaf_
 
-If you are unable to update your distribution, consider using the free cloud-based LaTeX editor [OverLeaf](https://www.overleaf.com/). By default, this editor uses a TeXLive distribution that is no more than a year old. 
+If you are unable to update your distribution, consider using the free cloud-based LaTeX editor [_Overleaf_](https://www.overleaf.com/). By default, this editor uses a TeXLive distribution that is no more than a year old. 
 
-For most people, the free version of OverLeaf should be sufficient. However, if you anticipate that your thesis or dissertation will be several hundreds of pages long and/or contain many large (in terms of file sizes) images, you may need a paid version. 
+For most people, the free version of _Overleaf_ should be sufficient. However, if you anticipate that your thesis or dissertation will be several hundred pages long and/or contain many large (in terms of file sizes) images, you may need a paid version. 
 
 
 # Repository contents 
