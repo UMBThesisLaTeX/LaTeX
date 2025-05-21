@@ -84,6 +84,21 @@ If you are unable to update your distribution, consider using the free cloud-bas
 
 For most people, the free version of _Overleaf_ should be sufficient. However, if you anticipate that your thesis or dissertation will be several hundred pages long and/or contain many large (in terms of file sizes) images, you may need a paid version. 
 
+# Warning
+
+**Make sure you _visually inspect_ every page of your document to make sure it adheres to the style manual.**
+
+True, there is a high probability that this class and template will automatically produce a completely correctly formatted document. However, it is also perfectly possible that manual intervention might be necessary. 
+
+For one thing, there might still be undiscovered bugs in the class and template. For another, as powerful as LaTeX is, some things it can't do on its own. 
+
+For example, it is [basically impossible](https://tex.stackexchange.com/questions/4152/how-do-i-prevent-widow-orphan-lines) to automatically eliminate 'widows' and 'orphans' in every conceivable case. One can make them _very unlikely_ (as this template does, by loading the ```nowidow``` package), but there can always be stubborn cases where they persist. In such cases, the only practical solution may be to rewrite the text!
+
+In addition to inspecting for widows and orphans, here are some other issues to watch out for, as far as formatting:
+
+* intrusions into margins; the usual suspects are long words, URLs, equations, tables, or graphics. See e.g. [here](https://tex.stackexchange.com/questions/256526/enforce-strict-margin-boundaries).
+* defects in the Table of Contents (and/or the List of Figures and/or List of Tables). The likelihood of this increases when there is an unusually high number of sections or figures or tables, or when the name of a section has just the 'magic' length to trip up LaTeX's algorithm. I have done a lot of work to make this sort of error unlikely, but it could still reappear.
+
 
 # Repository contents 
 
