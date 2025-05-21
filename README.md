@@ -4,11 +4,21 @@ Click the green button labeled `<> Code`. and then click on `Download ZIP`.
 
 # Purpose
 
-A LaTeX class and template for producing a master's thesis or a doctoral dissertation.
+A LaTeX class and template for producing a master's thesis or a doctoral dissertation at UMass Boston.
 
-For now, only the _traditional format,_ with a single bibliography at the end, is supported out of the box. 
+## Limitations
 
-It wouldn't be very difficult to use the ```chapterbib``` package to produce a document in the _multi-monograph (alternative) format._ Indeed, some people have already done that on their own with older versions of this class/template. I just haven't gotten around to implementing that.
+### Format
+
+Only the _traditional format,_ with a single bibliography at the end, is supported out of the box. 
+
+The other officially sanctioned format, the _multi-monograph (alternative) format,_ actually wouldn't be very difficult to produce; the key would be to use the ```chapterbib``` package. Indeed, some people have already done that on their own with older versions of this class and template. I just haven't gotten around to implementing that.
+
+### Support for "parts"
+
+If your thesis or dissertation includes multiple "parts" (a grouping above chapters), please note that the formatting of the Table of Contents (ToC) may end up requiring nontrivial manual LaTeX hacks. 
+
+I am trying to get it automated, but it is _very_ challenging. The problem is the 'CHAPTER/Page' heading (see pdf page 21 of the UMass Boston style manual, which is labeled as p. 20). This 'CHAPTER/Page' heading should be the top line on every non-first ToC page _except_ those on which a Part appears as the first entry (see pdf page 29 of the UMass Boston style manual), in which case it's the part that should be the top entry, _followed_ by the 'CHAPTER/Page' heading. LaTeX doesn't have ready-made tools to handle this kind of situation.
 
 # Target  institution
 
