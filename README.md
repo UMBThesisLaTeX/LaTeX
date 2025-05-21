@@ -101,4 +101,6 @@ Vanja Dunjko
 
 Send an email to umbthesislatex@gmail.com .
 
+Please note that there are two periods when I am unlikely to be available to help with this class and template: roughly Dec 15-Jan 15, and the month of August. 
+
 
