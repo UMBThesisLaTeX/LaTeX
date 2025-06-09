@@ -91,7 +91,10 @@
 %%%%%%%%%%%%%%%%%%%% options passed to amsmath %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-% 'amsmath' is required by 'newtxmath', and the latter is the main package that makes the math font go well with Times New Roman (well, the clone of Times New Roman, which is set as the document font by \newtxtext. These are all the options available in amsmath. 
+% 'amsmath' is required by 'newtxmath', and the latter is the main package that makes the math font go well with Times New Roman. 
+% (Well, with a clone of Times New Roman, which is set as the document font by the 'newtxtext' package. And newtxtext is the recommended package for setting the document in (a clone of) the Times New Roman font.) 
+% This is why it would be impractical to try to avoid loading amsmath---we would need to find some other source of math fonts, and newtxmath is the currectly recommended one.
+% These are all the options available in amsmath. 
 %
 \DeclareOption{intlimits}{\PassOptionsToClass{amsmath}{intlimits}}
 \DeclareOption{nointlimits}{\PassOptionsToClass{amsmath}{nointlimits}}
